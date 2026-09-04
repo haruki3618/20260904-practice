@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    /* ベース設定 */
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+
+    /* 出力設定 */
+    "outDir": "./dist",
+    "rootDir": "./src",
+
+    /* 厳格な型チェック */
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+
+    /* モジュール互換性 */
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
